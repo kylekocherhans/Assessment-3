@@ -1,0 +1,90 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#interests-images-container {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.interests-image {
+	width: 240px;
+	height: 240px;
+	object-fit: contain;
+	border: 2px solid black;
+	background-color: white;
+}
+
+#images-top-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#images-bottom-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#fav-btns-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fav-btns {
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	background-color: yellow;
+}
+
+a {
+	text-decoration: none;
+}
+
+#recommendation-button {
+	width: 160px;
+	height: 50px;
+}
